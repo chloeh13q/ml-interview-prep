@@ -4,19 +4,20 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Table of Contents | fastpages</title>
+<title>Machine Learning Interview Study Guide | fastpages</title>
 <meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="Table of Contents" />
+<meta property="og:title" content="Machine Learning Interview Study Guide" />
+<meta name="author" content="Chloe He" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="An easy to use blogging platform with support for Jupyter Notebooks." />
 <meta property="og:description" content="An easy to use blogging platform with support for Jupyter Notebooks." />
-<link rel="canonical" href="https://chloeh13q.github.io/ml-interview-prep/2021/11/11/Machine-Learning-Interview-Study-Guide.html" />
-<meta property="og:url" content="https://chloeh13q.github.io/ml-interview-prep/2021/11/11/Machine-Learning-Interview-Study-Guide.html" />
+<link rel="canonical" href="https://chloeh13q.github.io/ml-interview-prep/interview-prep/2021/11/11/Machine-Learning-Interview-Study-Guide.html" />
+<meta property="og:url" content="https://chloeh13q.github.io/ml-interview-prep/interview-prep/2021/11/11/Machine-Learning-Interview-Study-Guide.html" />
 <meta property="og:site_name" content="fastpages" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2021-11-11T00:00:00-06:00" />
 <script type="application/ld+json">
-{"datePublished":"2021-11-11T00:00:00-06:00","url":"https://chloeh13q.github.io/ml-interview-prep/2021/11/11/Machine-Learning-Interview-Study-Guide.html","@type":"BlogPosting","headline":"Table of Contents","dateModified":"2021-11-11T00:00:00-06:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://chloeh13q.github.io/ml-interview-prep/2021/11/11/Machine-Learning-Interview-Study-Guide.html"},"description":"An easy to use blogging platform with support for Jupyter Notebooks.","@context":"https://schema.org"}</script>
+{"datePublished":"2021-11-11T00:00:00-06:00","url":"https://chloeh13q.github.io/ml-interview-prep/interview-prep/2021/11/11/Machine-Learning-Interview-Study-Guide.html","@type":"BlogPosting","headline":"Machine Learning Interview Study Guide","dateModified":"2021-11-11T00:00:00-06:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://chloeh13q.github.io/ml-interview-prep/interview-prep/2021/11/11/Machine-Learning-Interview-Study-Guide.html"},"author":{"@type":"Person","name":"Chloe He"},"description":"An easy to use blogging platform with support for Jupyter Notebooks.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/ml-interview-prep/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://chloeh13q.github.io/ml-interview-prep/feed.xml" title="fastpages" /><link rel="shortcut icon" type="image/x-icon" href="/ml-interview-prep/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
@@ -71,9 +72,11 @@ window.onload = wrap_img;
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Table of Contents</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2021-11-11T00:00:00-06:00" itemprop="datePublished">
+    <h1 class="post-title p-name" itemprop="name headline">Machine Learning Interview Study Guide</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2021-11-11T00:00:00-06:00" itemprop="datePublished">
         Nov 11, 2021
-      </time>
+      </time>• 
+          <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <span class="p-author h-card" itemprop="name">Chloe He</span></span>
        • <span class="read-time" title="Estimated read time">
     
     
@@ -81,6 +84,13 @@ window.onload = wrap_img;
     
 </span></p>
 
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/ml-interview-prep/categories/#interview-prep">interview-prep</a>
+        
+      
+      </p>
     
 
     
@@ -108,7 +118,136 @@ window.onload = wrap_img;
       </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <!--
+    <ul class="section-nav">
+<li class="toc-entry toc-h1"><a href="#Probability-&-Statistics-">Probability &amp; Statistics  </a>
+<ul>
+<li class="toc-entry toc-h2"><a href="#Probability-">Probability  </a></li>
+<li class="toc-entry toc-h2"><a href="#Permutations-&-Combinations">Permutations &amp; Combinations </a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#Without-Replacement">Without Replacement </a></li>
+<li class="toc-entry toc-h3"><a href="#With-Replacement">With Replacement </a></li>
+<li class="toc-entry toc-h3"><a href="#Distiguishable-vs-Indistinguishable">Distiguishable vs Indistinguishable </a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h2"><a href="#Statistics">Statistics </a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h1"><a href="#Machine-Learning-Fundamentals">Machine Learning Fundamentals </a>
+<ul>
+<li class="toc-entry toc-h2"><a href="#Dimensionality-Reduction">Dimensionality Reduction </a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#Feature-Elimination">Feature Elimination </a></li>
+<li class="toc-entry toc-h3"><a href="#Feature-Extraction">Feature Extraction </a>
+<ul>
+<li class="toc-entry toc-h4"><a href="#PCA">PCA </a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-entry toc-h2"><a href="#ML-Methods">ML Methods </a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#Supervised-Learning">Supervised Learning </a>
+<ul>
+<li class="toc-entry toc-h4"><a href="#Linear-Regression">Linear Regression </a></li>
+<li class="toc-entry toc-h4"><a href="#Logistic-Regression">Logistic Regression </a></li>
+<li class="toc-entry toc-h4"><a href="#Support-Vector-Machines-(SVMs)">Support Vector Machines (SVMs) </a>
+<ul>
+<li class="toc-entry toc-h5"><a href="#Definitions-and-Key-Distinctions">Definitions and Key Distinctions </a></li>
+<li class="toc-entry toc-h5"><a href="#Additional-Info">Additional Info </a></li>
+<li class="toc-entry toc-h5"><a href="#Pros-&-Cons">Pros &amp; Cons </a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h4"><a href="#$k$-Nearest-Neighbors">$k$-Nearest Neighbors </a></li>
+<li class="toc-entry toc-h4"><a href="#Gaussian-Discriminant-Analysis">Gaussian Discriminant Analysis </a></li>
+<li class="toc-entry toc-h4"><a href="#Naive-Bayes">Naive Bayes </a></li>
+<li class="toc-entry toc-h4"><a href="#Decision-Trees">Decision Trees </a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h3"><a href="#Unsupervised-Learning">Unsupervised Learning </a>
+<ul>
+<li class="toc-entry toc-h4"><a href="#$k$-Means">$k$-Means </a></li>
+<li class="toc-entry toc-h4"><a href="#Hierarchical-Clustering">Hierarchical Clustering </a></li>
+<li class="toc-entry toc-h4"><a href="#Gaussian-Mixture">Gaussian Mixture </a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-entry toc-h2"><a href="#Advanced-ML-Methods">Advanced ML Methods </a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#Ensemble">Ensemble </a>
+<ul>
+<li class="toc-entry toc-h4"><a href="#Bagging">Bagging </a></li>
+<li class="toc-entry toc-h4"><a href="#Boosting">Boosting </a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h3"><a href="#High-Dimensional-Data">High Dimensional Data </a></li>
+<li class="toc-entry toc-h3"><a href="#Which-Models-Require-Normalization-/-Standardization-of-Data?">Which Models Require Normalization / Standardization of Data? </a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h2"><a href="#Deep-Learning">Deep Learning </a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#Activation-Functions">Activation Functions </a></li>
+<li class="toc-entry toc-h3"><a href="#Gradient-Descent">Gradient Descent </a></li>
+<li class="toc-entry toc-h3"><a href="#Learning-Rates">Learning Rates </a></li>
+<li class="toc-entry toc-h3"><a href="#Optimizers">Optimizers </a></li>
+<li class="toc-entry toc-h3"><a href="#Data">Data </a>
+<ul>
+<li class="toc-entry toc-h4"><a href="#Shuffling">Shuffling </a></li>
+<li class="toc-entry toc-h4"><a href="#Data-Augmentation">Data Augmentation </a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h3"><a href="#Model-Components">Model Components </a>
+<ul>
+<li class="toc-entry toc-h4"><a href="#Batch-Normalization">Batch Normalization </a></li>
+<li class="toc-entry toc-h4"><a href="#Dropout">Dropout </a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h3"><a href="#Vanishing-Gradients">Vanishing Gradients </a></li>
+<li class="toc-entry toc-h3"><a href="#Exploding-Gradients">Exploding Gradients </a></li>
+<li class="toc-entry toc-h3"><a href="#Weight-Initialization">Weight Initialization </a></li>
+<li class="toc-entry toc-h3"><a href="#Model-Architectures">Model Architectures </a>
+<ul>
+<li class="toc-entry toc-h4"><a href="#CNNs">CNNs </a></li>
+<li class="toc-entry toc-h4"><a href="#RNNs">RNNs </a></li>
+<li class="toc-entry toc-h4"><a href="#AlexNet">AlexNet </a></li>
+<li class="toc-entry toc-h4"><a href="#ResNet">ResNet </a></li>
+<li class="toc-entry toc-h4"><a href="#U-Net">U-Net </a></li>
+<li class="toc-entry toc-h4"><a href="#Encoder-decoder-Networks-with-Attention">Encoder-decoder Networks with Attention </a></li>
+<li class="toc-entry toc-h4"><a href="#Transformers-(Attention-is-All-You-Need)">Transformers (Attention is All You Need) </a></li>
+<li class="toc-entry toc-h4"><a href="#BERT">BERT </a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h3"><a href="#Transfer-Learning">Transfer Learning </a></li>
+<li class="toc-entry toc-h3"><a href="#Other">Other </a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h2"><a href="#Evaluation">Evaluation </a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#Metrics">Metrics </a>
+<ul>
+<li class="toc-entry toc-h4"><a href="#Classification">Classification </a></li>
+<li class="toc-entry toc-h4"><a href="#Regression">Regression </a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-entry toc-h2"><a href="#ML-Systems">ML Systems </a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#Class-Imbalance">Class Imbalance </a></li>
+<li class="toc-entry toc-h3"><a href="#Overfitting">Overfitting </a></li>
+<li class="toc-entry toc-h3"><a href="#Underfitting">Underfitting </a></li>
+<li class="toc-entry toc-h3"><a href="#Regularization">Regularization </a></li>
+<li class="toc-entry toc-h3"><a href="#Model-Debugging-and-Testing">Model Debugging and Testing </a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-entry toc-h1"><a href="#Interview-Tips">Interview Tips </a>
+<ul>
+<li class="toc-entry toc-h2"><a href="#Questions-to-Ask-the-Interviewer">Questions to Ask the Interviewer </a></li>
+</ul>
+</li>
+</ul><!--
 #################################################
 ### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
 #################################################
@@ -117,36 +256,51 @@ window.onload = wrap_img;
 
 <div class="container" id="notebook-container">
         
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Probability-&amp;-Statistics-">Probability &amp; Statistics <a class="anchor" id="probability-statistics" /><a class="anchor-link" href="#Probability-&amp;-Statistics-"> </a></h1>
+<h1 id="Probability-&amp;-Statistics-">
+<a class="anchor" href="#Probability-&amp;-Statistics-" aria-hidden="true"><span class="octicon octicon-link"></span></a>Probability &amp; Statistics <a class="anchor" id="probability-statistics"></a><a class="anchor-link" href="#Probability-&amp;-Statistics-"> </a>
+</h1>
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Probability-">Probability <a class="anchor" id="probability" /><a class="anchor-link" href="#Probability-"> </a></h2><ul>
-<li><p>Bayes' Theorem</p>
+<h2 id="Probability-">
+<a class="anchor" href="#Probability-" aria-hidden="true"><span class="octicon octicon-link"></span></a>Probability <a class="anchor" id="probability"></a><a class="anchor-link" href="#Probability-"> </a>
+</h2>
+<ul>
+<li>
+<p>Bayes' Theorem</p>
 </li>
-<li><p>Two events A and B are mutually exclusive if $P(A\cup B)=0$. Two events A and B are independent if $P(A\cup B)=P(A)P(B)$. Therefore, two mutually exclusive events A and B are independent if and only if $P(A)=0$ or $P(B)=0$.</p>
+<li>
+<p>Two events A and B are mutually exclusive if $P(A\cup B)=0$. Two events A and B are independent if $P(A\cup B)=P(A)P(B)$. Therefore, two mutually exclusive events A and B are independent if and only if $P(A)=0$ or $P(B)=0$.</p>
 </li>
 </ul>
 <ul>
-<li><p>Expected value of random variable
+<li>
+<p>Expected value of random variable
 $$
 \mathbb{E}[X]=\sum X_i \cdot p(X_i)
 $$</p>
 </li>
-<li><p>Probability distributions</p>
+<li>
+<p>Probability distributions</p>
 <ul>
-<li><p>Discrete</p>
-<p><img src="images/discrete_probability_cheatsheet.jpg" alt="Discrete Probability Distributions" /></p>
+<li>
+<p>Discrete</p>
+<p><img src="images/discrete_probability_cheatsheet.jpg" alt="Discrete Probability Distributions"></p>
 <ul>
-<li><p><span style="background-color: yellow">Bernoulli =&gt; binomial, geometric</span></p>
+<li>
+<p><span style="background-color: yellow">Bernoulli =&gt; binomial, geometric</span></p>
 <ul>
-<li><p>Bernoulli: e.g. flip a coin</p>
+<li>
+<p>Bernoulli: e.g. flip a coin</p>
 </li>
-<li><p>Binomial: the probability that there are $k$ successes out of $n$ trials in a series of repeated Bernoulli trials meeting three criteria
+<li>
+<p>Binomial: the probability that there are $k$ successes out of $n$ trials in a series of repeated Bernoulli trials meeting three criteria
 $$
 p_X (k)= {n \choose k}p^k (1-p)^{n-k}
 $$</p>
@@ -156,7 +310,8 @@ $$</p>
 <li>Constant probability of success</li>
 </ul>
 </li>
-<li><p>Geometric: the probability that the first $k-1$ trials are failures im repeated Bernoulli trials
+<li>
+<p>Geometric: the probability that the first $k-1$ trials are failures im repeated Bernoulli trials
 $$
 p_X (k)=(1-p)^{k-1}p
 $$</p>
@@ -169,19 +324,22 @@ $$</li>
 </li>
 </ul>
 </li>
-<li><p><span style="background-color: yellow">Poisson =&gt; exponential (continuous)</span></p>
+<li>
+<p><span style="background-color: yellow">Poisson =&gt; exponential (continuous)</span></p>
 <ul>
-<li><p>Poisson: the probability of observing $k$ events in a time period given the length of the period and the average events per time</p>
+<li>
+<p>Poisson: the probability of observing $k$ events in a time period given the length of the period and the average events per time</p>
 </li>
-<li></li>
+<li>
 </ul>
 </li>
 </ul>
 </li>
-<li><p>Continuous</p>
-<p><img src="images/continuous_probability_cheatsheet.jpg" alt="Probability For Dummies Cheat Sheet" /></p>
+<li>
+<p>Continuous</p>
+<p><img src="images/continuous_probability_cheatsheet.jpg" alt="Probability For Dummies Cheat Sheet"></p>
 </li>
-<li></li>
+<li>
 </ul>
 </li>
 </ul>
@@ -189,22 +347,31 @@ $$</li>
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Permutations-&amp;-Combinations">Permutations &amp; Combinations<a class="anchor" id="permutations-combinations" /><a class="anchor-link" href="#Permutations-&amp;-Combinations"> </a></h2><p><figure>
+<h2 id="Permutations-&amp;-Combinations">
+<a class="anchor" href="#Permutations-&amp;-Combinations" aria-hidden="true"><span class="octicon octicon-link"></span></a>Permutations &amp; Combinations<a class="anchor" id="permutations-combinations"></a><a class="anchor-link" href="#Permutations-&amp;-Combinations"> </a>
+</h2>
+<p><figure>
   
-    <img class="docimage" src="/ml-interview-prep/images/copied_from_nb/images/permutations_combinations_cheatsheet.png" alt="" style="max-width: 600px" />
+    <img class="docimage" src="/ml-interview-prep/images/copied_from_nb/images/permutations_combinations_cheatsheet.png" alt="" style="max-width: 600px">
     
     
 </figure>
 </p>
-<h3 id="Without-Replacement">Without Replacement<a class="anchor-link" href="#Without-Replacement"> </a></h3><ul>
-<li><p>Product rule: if an experiment has $N_1$ outcomes for the first stage, $N_2$ outcomes for the second stage, ..., and $N_M$ outcomes for the $M$th stage, then the total number of outcomes of the experiment is
+<h3 id="Without-Replacement">
+<a class="anchor" href="#Without-Replacement" aria-hidden="true"><span class="octicon octicon-link"></span></a>Without Replacement<a class="anchor-link" href="#Without-Replacement"> </a>
+</h3>
+<ul>
+<li>
+<p>Product rule: if an experiment has $N_1$ outcomes for the first stage, $N_2$ outcomes for the second stage, ..., and $N_M$ outcomes for the $M$th stage, then the total number of outcomes of the experiment is
 $$
 N_1 \times N_2 \times \cdots N_M
 $$</p>
 </li>
-<li><p>Permutations: the number of orderings of $N$ <strong>distinct</strong> objects is
+<li>
+<p>Permutations: the number of orderings of $N$ <strong>distinct</strong> objects is
 $$
 N!
 $$</p>
@@ -212,19 +379,23 @@ $$</p>
 <li>A <span style="background-color: yellow">permutation</span> is an act of arranging the objects or numbers in order</li>
 </ul>
 </li>
-<li><p><span style="background-color: yellow">Combinations</span> are the way of selecting the objects or numbers from a group of objects or collection, in such a way that the order of the objects does not matter</p>
+<li>
+<p><span style="background-color: yellow">Combinations</span> are the way of selecting the objects or numbers from a group of objects or collection, in such a way that the order of the objects does not matter</p>
 </li>
-<li><p>Permutations of $n$ distinct objects:
+<li>
+<p>Permutations of $n$ distinct objects:
 $$
 P(n)=n!
 $$</p>
 </li>
-<li><p>$k$-permutations: permutations of $k$ items taken from $n$ distinct objects (order matters):
+<li>
+<p>$k$-permutations: permutations of $k$ items taken from $n$ distinct objects (order matters):
 $$
 P(n,k)=\frac{n!}{(n-k)!}
 $$</p>
 </li>
-<li><p>Combinations of $k$ items taken from $n$ distinct objects ($n$ choose $k$) (order doesn't matter):
+<li>
+<p>Combinations of $k$ items taken from $n$ distinct objects ($n$ choose $k$) (order doesn't matter):
 $$
 C(n,k)=\frac{n!}{k!(n-k)!}
 $$</p>
@@ -234,7 +405,8 @@ $$</p>
 </li>
 </ul>
 <ul>
-<li><p>Multinomial coeffficients: if we have $k$ types of objects ($N$ total), with $N_1$ of the first type, $N_2$ of the second, ..., and $N_k$ of the $k$th, then the number of arrangements possible is
+<li>
+<p>Multinomial coeffficients: if we have $k$ types of objects ($N$ total), with $N_1$ of the first type, $N_2$ of the second, ..., and $N_k$ of the $k$th, then the number of arrangements possible is
 $$
 C(N,N_1)C(N-N_1,N_2)\cdots C(N_k,N_k)=\frac{N!}{N_1!N_2!\cdots N_k!}
 $$</p>
@@ -246,13 +418,18 @@ $$</li>
 </ul>
 </li>
 </ul>
-<h3 id="With-Replacement">With Replacement<a class="anchor-link" href="#With-Replacement"> </a></h3><ul>
-<li><p>$k$-combinations with repetition</p>
+<h3 id="With-Replacement">
+<a class="anchor" href="#With-Replacement" aria-hidden="true"><span class="octicon octicon-link"></span></a>With Replacement<a class="anchor-link" href="#With-Replacement"> </a>
+</h3>
+<ul>
+<li>
+<p>$k$-combinations with repetition</p>
 <ul>
 <li>Divider problem</li>
 </ul>
 </li>
-<li><p>The number of ways to distribute $n$ indistinguishable balls into $k$ distinguishable bins is
+<li>
+<p>The number of ways to distribute $n$ indistinguishable balls into $k$ distinguishable bins is
 $$
 {n+(k-1) \choose k-1} = {n+(k-1) \choose n}
 $$</p>
@@ -261,9 +438,12 @@ $$</p>
 </ul>
 </li>
 </ul>
-<h3 id="Distiguishable-vs-Indistinguishable">Distiguishable vs Indistinguishable<a class="anchor-link" href="#Distiguishable-vs-Indistinguishable"> </a></h3><p><figure>
+<h3 id="Distiguishable-vs-Indistinguishable">
+<a class="anchor" href="#Distiguishable-vs-Indistinguishable" aria-hidden="true"><span class="octicon octicon-link"></span></a>Distiguishable vs Indistinguishable<a class="anchor-link" href="#Distiguishable-vs-Indistinguishable"> </a>
+</h3>
+<p><figure>
   
-    <img class="docimage" src="/ml-interview-prep/images/copied_from_nb/images/distinguishable_indistinguishable.png" alt="" style="max-width: 600px" />
+    <img class="docimage" src="/ml-interview-prep/images/copied_from_nb/images/distinguishable_indistinguishable.png" alt="" style="max-width: 600px">
     
     
 </figure>
@@ -275,7 +455,8 @@ C(n,n_1)C(n-n_1,n_2)\cdots C(n-n_1-\cdots -n_{k-1},n_k)=\frac{n!}{n_1!n_2!\cdots
 $$</li>
 </ul>
 <ul>
-<li><p>The number of ways that $n$ <strong>indistinguishable items</strong> can be placed into $k$ <strong>distinguishable boxes</strong> is the same as counting the $n$-combinations for a set with $k$ elements when repetition is allowed</p>
+<li>
+<p>The number of ways that $n$ <strong>indistinguishable items</strong> can be placed into $k$ <strong>distinguishable boxes</strong> is the same as counting the $n$-combinations for a set with $k$ elements when repetition is allowed</p>
 <ol>
 <li>Treat our indistinguishable items as *s</li>
 <li>Use | to divide our distinguishable bins</li>
@@ -296,13 +477,18 @@ $$</li>
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Statistics">Statistics<a class="anchor" id="statistics" /><a class="anchor-link" href="#Statistics"> </a></h2><ul>
+<h2 id="Statistics">
+<a class="anchor" href="#Statistics" aria-hidden="true"><span class="octicon octicon-link"></span></a>Statistics<a class="anchor" id="statistics"></a><a class="anchor-link" href="#Statistics"> </a>
+</h2>
+<ul>
 <li>Central Limit Theorem: the sampling distribution of the sample means approaches a normal distribution as the sample size gets larger (&gt;30)</li>
 <li>Power</li>
-<li><p>Type I error vs Type II error:</p>
-<p><img src="images/Type-I-and-II-errors.jpeg" alt="Type I vs Type II Error" /></p>
+<li>
+<p>Type I error vs Type II error:</p>
+<p><img src="images/Type-I-and-II-errors.jpeg" alt="Type I vs Type II Error"></p>
 </li>
 <li>p value</li>
 <li>Confidence interval</li>
@@ -311,15 +497,22 @@ $$</li>
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Machine-Learning-Fundamentals">Machine Learning Fundamentals<a class="anchor" id="machine-learning-fundamentals" /><a class="anchor-link" href="#Machine-Learning-Fundamentals"> </a></h1>
+<h1 id="Machine-Learning-Fundamentals">
+<a class="anchor" href="#Machine-Learning-Fundamentals" aria-hidden="true"><span class="octicon octicon-link"></span></a>Machine Learning Fundamentals<a class="anchor" id="machine-learning-fundamentals"></a><a class="anchor-link" href="#Machine-Learning-Fundamentals"> </a>
+</h1>
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Dimensionality-Reduction">Dimensionality Reduction<a class="anchor-link" href="#Dimensionality-Reduction"> </a></h2><ul>
+<h2 id="Dimensionality-Reduction">
+<a class="anchor" href="#Dimensionality-Reduction" aria-hidden="true"><span class="octicon octicon-link"></span></a>Dimensionality Reduction<a class="anchor-link" href="#Dimensionality-Reduction"> </a>
+</h2>
+<ul>
 <li>Curse of dimensionality: high dimensional data leads to problems such as data sparsity and distance concentration<ul>
 <li>Data sparsity: the training samples available for building the model may not capture all possible combinations of the attributes; in real-time when less frequently occurring combinations are fed to the model, it may not predict the outcome accurately</li>
 <li>Distance concentration: all the pairwise distances between different samples/points in the space converging to the same value as the dimensionality of the data increases</li>
@@ -332,7 +525,16 @@ $$</li>
 </ul>
 </li>
 </ul>
-<h3 id="Feature-Elimination">Feature Elimination<a class="anchor-link" href="#Feature-Elimination"> </a></h3><h3 id="Feature-Extraction">Feature Extraction<a class="anchor-link" href="#Feature-Extraction"> </a></h3><h4 id="PCA">PCA<a class="anchor-link" href="#PCA"> </a></h4><ul>
+<h3 id="Feature-Elimination">
+<a class="anchor" href="#Feature-Elimination" aria-hidden="true"><span class="octicon octicon-link"></span></a>Feature Elimination<a class="anchor-link" href="#Feature-Elimination"> </a>
+</h3>
+<h3 id="Feature-Extraction">
+<a class="anchor" href="#Feature-Extraction" aria-hidden="true"><span class="octicon octicon-link"></span></a>Feature Extraction<a class="anchor-link" href="#Feature-Extraction"> </a>
+</h3>
+<h4 id="PCA">
+<a class="anchor" href="#PCA" aria-hidden="true"><span class="octicon octicon-link"></span></a>PCA<a class="anchor-link" href="#PCA"> </a>
+</h4>
+<ul>
 <li>What is PCA?<ul>
 <li>It is a dimensionality reduction technique which summarizes a large set of correlated variables (basically a high dimensional data) into a smaller number of representative variables, called the principal components, that explains most of the variability in the original set.</li>
 <li>Preserves as much information as possible</li>
@@ -350,9 +552,13 @@ $$</li>
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="ML-Methods">ML Methods<a class="anchor" id="ml-methods" /><a class="anchor-link" href="#ML-Methods"> </a></h2><p><a href="https://stanford.edu/~shervine/teaching/cs-229/">Stanford CS229 Cheat Sheet</a></p>
+<h2 id="ML-Methods">
+<a class="anchor" href="#ML-Methods" aria-hidden="true"><span class="octicon octicon-link"></span></a>ML Methods<a class="anchor" id="ml-methods"></a><a class="anchor-link" href="#ML-Methods"> </a>
+</h2>
+<p><a href="https://stanford.edu/~shervine/teaching/cs-229/">Stanford CS229 Cheat Sheet</a></p>
 <ul>
 <li>Discriminative vs generative models<ul>
 <li>Discriminative models: to obtain prediction for a data point, the model computes the probability of the data point belonging to each class; the class with the highest probability wins</li>
@@ -365,23 +571,42 @@ $$</li>
 </ul>
 </li>
 </ul>
-<h3 id="Supervised-Learning">Supervised Learning<a class="anchor" id="supervised-learning" /><a class="anchor-link" href="#Supervised-Learning"> </a></h3><h4 id="Linear-Regression">Linear Regression<a class="anchor-link" href="#Linear-Regression"> </a></h4><ul>
+<h3 id="Supervised-Learning">
+<a class="anchor" href="#Supervised-Learning" aria-hidden="true"><span class="octicon octicon-link"></span></a>Supervised Learning<a class="anchor" id="supervised-learning"></a><a class="anchor-link" href="#Supervised-Learning"> </a>
+</h3>
+<h4 id="Linear-Regression">
+<a class="anchor" href="#Linear-Regression" aria-hidden="true"><span class="octicon octicon-link"></span></a>Linear Regression<a class="anchor-link" href="#Linear-Regression"> </a>
+</h4>
+<ul>
 <li>Linear model</li>
 <li>Has closed-form solution</li>
-<li></li>
+<li>
 </ul>
-<h4 id="Logistic-Regression">Logistic Regression<a class="anchor-link" href="#Logistic-Regression"> </a></h4><ul>
+<h4 id="Logistic-Regression">
+<a class="anchor" href="#Logistic-Regression" aria-hidden="true"><span class="octicon octicon-link"></span></a>Logistic Regression<a class="anchor-link" href="#Logistic-Regression"> </a>
+</h4>
+<ul>
 <li>Linear model</li>
 <li>Has closed-form solution</li>
 </ul>
-<h4 id="Support-Vector-Machines-(SVMs)">Support Vector Machines (SVMs)<a class="anchor-link" href="#Support-Vector-Machines-(SVMs)"> </a></h4><h5 id="Definitions-and-Key-Distinctions">Definitions and Key Distinctions<a class="anchor-link" href="#Definitions-and-Key-Distinctions"> </a></h5><ul>
-<li>Support Vector Machines (SVMs) is a supervised machine learning for classification tasks where the model learns an <em>optimal hyperplane</em> (i.e. a decision boundary) that maximizes <em>margins</em></li>
+<h4 id="Support-Vector-Machines-(SVMs)">
+<a class="anchor" href="#Support-Vector-Machines-(SVMs)" aria-hidden="true"><span class="octicon octicon-link"></span></a>Support Vector Machines (SVMs)<a class="anchor-link" href="#Support-Vector-Machines-(SVMs)"> </a>
+</h4>
+<h5 id="Definitions-and-Key-Distinctions">
+<a class="anchor" href="#Definitions-and-Key-Distinctions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Definitions and Key Distinctions<a class="anchor-link" href="#Definitions-and-Key-Distinctions"> </a>
+</h5>
+<ul>
+<li>Support Vector Machines (SVMs) is a supervised machine learning for classification tasks where the model learns an <em>optimal hyperplane</em> (i.e. a decision boundary) that maximizes <em>margins</em>
+</li>
 <li>Support vectors: data points that lie closest to the decision surface or hyperplane</li>
 <li>Only a subset of points (i.e. support vectors) influence the choice of hyperplane, rather than all data points (in the case of logistic regression, neural nets, etc)</li>
 <li>The use of kernels</li>
 <li><span style="background-color: yellow">**"Kernel trick"**: we can avoid expensive operations in high dimensions by finding an appropriate kernel function $K(x, z)$ that is equivalent to the inner product of the feature map ($\phi$, which maps attributes $x$ ($x\in \mathbb{R}^d$) to $\phi(x)$ ($\phi(x) \in \mathbb{R}^p$) in higher dimensional space)</span></li>
 </ul>
-<h5 id="Additional-Info">Additional Info<a class="anchor-link" href="#Additional-Info"> </a></h5><ul>
+<h5 id="Additional-Info">
+<a class="anchor" href="#Additional-Info" aria-hidden="true"><span class="octicon octicon-link"></span></a>Additional Info<a class="anchor-link" href="#Additional-Info"> </a>
+</h5>
+<ul>
 <li>SVMs can be reframed as an optimization problem aiming to minimize $\frac{1}{2} \vert\vert w\vert\vert$</li>
 <li>Can be linear or non-linear (depending on the kernel function)<ul>
 <li>Linear SVM: data points can be easily separated with a linear line</li>
@@ -393,13 +618,19 @@ $$</li>
 </ul>
 </li>
 <li>The intuition behind maximizing the margin is that this will give us a unique solution to the problem of finding $f(x)$ and also that this solution is the most general under these conditions, i.e. it acts as a <strong>regularization</strong>. (<a href="https://stats.stackexchange.com/questions/82044/how-does-support-vector-regression-work-intuitively">reference</a>)</li>
-<li><blockquote><p>In a feature space of dimension $N$, if $N&gt;n$ then there will always be a separating hyperplane. However this hyperplane may not give rise to good generalization performance, especially if some of the labels are incorrect. (reference: Gaussian Processes for Machine Learning)</p>
+<li>
+<blockquote>
+<p>In a feature space of dimension $N$, if $N&gt;n$ then there will always be a separating hyperplane. However this hyperplane may not give rise to good generalization performance, especially if some of the labels are incorrect. (reference: Gaussian Processes for Machine Learning)</p>
 </blockquote>
 </li>
 </ul>
-<h5 id="Pros-&amp;-Cons">Pros &amp; Cons<a class="anchor-link" href="#Pros-&amp;-Cons"> </a></h5><ul>
+<h5 id="Pros-&amp;-Cons">
+<a class="anchor" href="#Pros-&amp;-Cons" aria-hidden="true"><span class="octicon octicon-link"></span></a>Pros &amp; Cons<a class="anchor-link" href="#Pros-&amp;-Cons"> </a>
+</h5>
+<ul>
 <li>Pros:<ul>
-<li><strong>Effective in high dimensional spaces</strong> (&amp; when the number of features is greater than the number of examples)<ul>
+<li>
+<strong>Effective in high dimensional spaces</strong> (&amp; when the number of features is greater than the number of examples)<ul>
 <li>Why is this true?</li>
 <li><a href="https://stackoverflow.com/questions/2255833/how-to-approach-machine-learning-problems-with-high-dimensional-input-space">Stackoverflow: How to approach machine learning problems with high dimensional input space?</a></li>
 </ul>
@@ -413,12 +644,18 @@ $$</li>
 </ul>
 </li>
 </ul>
-<h4 id="$k$-Nearest-Neighbors">$k$-Nearest Neighbors<a class="anchor-link" href="#$k$-Nearest-Neighbors"> </a></h4><ul>
+<h4 id="$k$-Nearest-Neighbors">
+<a class="anchor" href="#%24k%24-Nearest-Neighbors" aria-hidden="true"><span class="octicon octicon-link"></span></a>$k$-Nearest Neighbors<a class="anchor-link" href="#%24k%24-Nearest-Neighbors"> </a>
+</h4>
+<ul>
 <li>A non-parametric approach where the response of a data point is determined by the nature of its $k$ neighbors from the training set</li>
 <li>Can be used in both classification and regression</li>
 <li>The higher the parameter $k$, the higher the bias; the lower the parameter $k$, the higher the variance</li>
 </ul>
-<h4 id="Gaussian-Discriminant-Analysis">Gaussian Discriminant Analysis<a class="anchor-link" href="#Gaussian-Discriminant-Analysis"> </a></h4><ul>
+<h4 id="Gaussian-Discriminant-Analysis">
+<a class="anchor" href="#Gaussian-Discriminant-Analysis" aria-hidden="true"><span class="octicon octicon-link"></span></a>Gaussian Discriminant Analysis<a class="anchor-link" href="#Gaussian-Discriminant-Analysis"> </a>
+</h4>
+<ul>
 <li>Generative model</li>
 <li>Assumptions:<ul>
 <li>$y \sim \text{Bernoulli} (\phi)$</li>
@@ -427,7 +664,10 @@ $$</li>
 </ul>
 </li>
 </ul>
-<h4 id="Naive-Bayes">Naive Bayes<a class="anchor-link" href="#Naive-Bayes"> </a></h4><ul>
+<h4 id="Naive-Bayes">
+<a class="anchor" href="#Naive-Bayes" aria-hidden="true"><span class="octicon octicon-link"></span></a>Naive Bayes<a class="anchor-link" href="#Naive-Bayes"> </a>
+</h4>
+<ul>
 <li>Generative model</li>
 <li>Assumptions:<ul>
 <li>Independent predictors, i.e. 
@@ -438,10 +678,15 @@ $$</li>
 </li>
 <li>Widely used for text classification and spam detection</li>
 </ul>
-<h4 id="Decision-Trees">Decision Trees<a class="anchor-link" href="#Decision-Trees"> </a></h4><ul>
-<li><p>Non-linear model</p>
+<h4 id="Decision-Trees">
+<a class="anchor" href="#Decision-Trees" aria-hidden="true"><span class="octicon octicon-link"></span></a>Decision Trees<a class="anchor-link" href="#Decision-Trees"> </a>
+</h4>
+<ul>
+<li>
+<p>Non-linear model</p>
 </li>
-<li><p>Decisions trees are very sensitive to the data they are trained on; small changes to the training set can result in significantly different tree structures $\to$ bagging</p>
+<li>
+<p>Decisions trees are very sensitive to the data they are trained on; small changes to the training set can result in significantly different tree structures $\to$ bagging</p>
 </li>
 <li>Random forest: a tree-based ensemble technique that uses a high number of decision trees built out of randomly selected sets of features; contrary to the simple decision tree, it is highly uninterpretable</li>
 <li>Boosting:<ul>
@@ -450,7 +695,13 @@ $$</li>
 </ul>
 </li>
 </ul>
-<h3 id="Unsupervised-Learning">Unsupervised Learning<a class="anchor" id="unsupervised-learning" /><a class="anchor-link" href="#Unsupervised-Learning"> </a></h3><h4 id="$k$-Means">$k$-Means<a class="anchor-link" href="#$k$-Means"> </a></h4><ul>
+<h3 id="Unsupervised-Learning">
+<a class="anchor" href="#Unsupervised-Learning" aria-hidden="true"><span class="octicon octicon-link"></span></a>Unsupervised Learning<a class="anchor" id="unsupervised-learning"></a><a class="anchor-link" href="#Unsupervised-Learning"> </a>
+</h3>
+<h4 id="$k$-Means">
+<a class="anchor" href="#%24k%24-Means" aria-hidden="true"><span class="octicon octicon-link"></span></a>$k$-Means<a class="anchor-link" href="#%24k%24-Means"> </a>
+</h4>
+<ul>
 <li>Pros:<ul>
 <li>Easy to implement</li>
 <li>With a large number of variables, may be computationally faster than hierarchical clustering (linear time complexity, i.e. $O(n)$)</li>
@@ -465,7 +716,10 @@ $$</li>
 </ul>
 </li>
 </ul>
-<h4 id="Hierarchical-Clustering">Hierarchical Clustering<a class="anchor-link" href="#Hierarchical-Clustering"> </a></h4><ul>
+<h4 id="Hierarchical-Clustering">
+<a class="anchor" href="#Hierarchical-Clustering" aria-hidden="true"><span class="octicon octicon-link"></span></a>Hierarchical Clustering<a class="anchor-link" href="#Hierarchical-Clustering"> </a>
+</h4>
+<ul>
 <li>Pros:<ul>
 <li>Hierarchical structure is more informative &amp; makes it easier to decide on the number of clusters by looking at the dendrogram</li>
 <li>Easy to implement</li>
@@ -479,20 +733,36 @@ $$</li>
 </ul>
 </li>
 </ul>
-<h4 id="Gaussian-Mixture">Gaussian Mixture<a class="anchor-link" href="#Gaussian-Mixture"> </a></h4>
+<h4 id="Gaussian-Mixture">
+<a class="anchor" href="#Gaussian-Mixture" aria-hidden="true"><span class="octicon octicon-link"></span></a>Gaussian Mixture<a class="anchor-link" href="#Gaussian-Mixture"> </a>
+</h4>
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Advanced-ML-Methods">Advanced ML Methods<a class="anchor" id="advanced-ml-methods" /><a class="anchor-link" href="#Advanced-ML-Methods"> </a></h2><h3 id="Ensemble">Ensemble<a class="anchor-link" href="#Ensemble"> </a></h3><ul>
+<h2 id="Advanced-ML-Methods">
+<a class="anchor" href="#Advanced-ML-Methods" aria-hidden="true"><span class="octicon octicon-link"></span></a>Advanced ML Methods<a class="anchor" id="advanced-ml-methods"></a><a class="anchor-link" href="#Advanced-ML-Methods"> </a>
+</h2>
+<h3 id="Ensemble">
+<a class="anchor" href="#Ensemble" aria-hidden="true"><span class="octicon octicon-link"></span></a>Ensemble<a class="anchor-link" href="#Ensemble"> </a>
+</h3>
+<ul>
 <li>The low correlation between models is the key (protect each other from individual errors)</li>
 </ul>
-<h4 id="Bagging">Bagging<a class="anchor-link" href="#Bagging"> </a></h4><ul>
+<h4 id="Bagging">
+<a class="anchor" href="#Bagging" aria-hidden="true"><span class="octicon octicon-link"></span></a>Bagging<a class="anchor-link" href="#Bagging"> </a>
+</h4>
+<ul>
 <li>Given a dataset, instead of training one classifier on the entire dataset, you sample with replacement to create different datasets, call bootstraps, and train a classification or regression model on each of these bootstraps</li>
-<li>A random forest is an example of bagging <span style="background-color: yellow">(random forest = bagging + feature randomness)</span></li>
+<li>A random forest is an example of bagging <span style="background-color: yellow">(random forest = bagging + feature randomness)</span>
+</li>
 </ul>
-<h4 id="Boosting">Boosting<a class="anchor-link" href="#Boosting"> </a></h4><ul>
+<h4 id="Boosting">
+<a class="anchor" href="#Boosting" aria-hidden="true"><span class="octicon octicon-link"></span></a>Boosting<a class="anchor-link" href="#Boosting"> </a>
+</h4>
+<ul>
 <li>Each learner in the ensemble is trained on the same set of samples but the samples are weighted differently among iterations. Thus, future weak learners focus more on the examples that previous weak learners misclassified</li>
 <li>The final classifier is a weighted combination of the existing classifiers - classifiers with smaller training errors have higher weights</li>
 <li>An example of a boosting algorithm is Gradient Boosting Machine (XGBoost, LightGBM)</li>
@@ -508,15 +778,27 @@ $$</li>
 </ul>
 </li>
 </ul>
-<h3 id="High-Dimensional-Data">High Dimensional Data<a class="anchor-link" href="#High-Dimensional-Data"> </a></h3><h3 id="Which-Models-Require-Normalization-/-Standardization-of-Data?">Which Models Require Normalization / Standardization of Data?<a class="anchor-link" href="#Which-Models-Require-Normalization-/-Standardization-of-Data?"> </a></h3>
+<h3 id="High-Dimensional-Data">
+<a class="anchor" href="#High-Dimensional-Data" aria-hidden="true"><span class="octicon octicon-link"></span></a>High Dimensional Data<a class="anchor-link" href="#High-Dimensional-Data"> </a>
+</h3>
+<h3 id="Which-Models-Require-Normalization-/-Standardization-of-Data?">
+<a class="anchor" href="#Which-Models-Require-Normalization-/-Standardization-of-Data?" aria-hidden="true"><span class="octicon octicon-link"></span></a>Which Models Require Normalization / Standardization of Data?<a class="anchor-link" href="#Which-Models-Require-Normalization-/-Standardization-of-Data?"> </a>
+</h3>
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Deep-Learning">Deep Learning<a class="anchor" id="deep-learning" /><a class="anchor-link" href="#Deep-Learning"> </a></h2><p><a href="https://ruder.io/optimizing-gradient-descent/">An overview of gradient descent optimization algorithms</a>
+<h2 id="Deep-Learning">
+<a class="anchor" href="#Deep-Learning" aria-hidden="true"><span class="octicon octicon-link"></span></a>Deep Learning<a class="anchor" id="deep-learning"></a><a class="anchor-link" href="#Deep-Learning"> </a>
+</h2>
+<p><a href="https://ruder.io/optimizing-gradient-descent/">An overview of gradient descent optimization algorithms</a>
 <a href="https://www.kdnuggets.com/2020/09/deep-learnings-most-important-ideas.html">KDnuggets: Deep Learning's Most Important Ideas</a></p>
-<h3 id="Activation-Functions">Activation Functions<a class="anchor" id="activation-functions" /><a class="anchor-link" href="#Activation-Functions"> </a></h3><ul>
+<h3 id="Activation-Functions">
+<a class="anchor" href="#Activation-Functions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Activation Functions<a class="anchor" id="activation-functions"></a><a class="anchor-link" href="#Activation-Functions"> </a>
+</h3>
+<ul>
 <li>The purpose of the activation function is to introduce non-linearity into the output of a neuron</li>
 <li>Binary step function<ul>
 <li>Only suitable for binary classes</li>
@@ -534,8 +816,8 @@ $$</li>
 <li>Pros:<ul>
 <li>ReLU takes less time to learn and is computationally less expensive than other common activation functions</li>
 <li>Because it outputs 0 whenever its input is negative, fewer neurons will be activated, leading to network sparsity and thus higher computational efficiency</li>
-<li>Tanh and sigmoid functions are prone to the vanishing gradient problem, where gradients shrink drastically in backpropagation such that the network is no longer able to learn. ReLU avoids this by preserving the gradient since:<br />
-  (i) its linear portion (in positive input range) allows gradients to flow well on active paths of neurons and remain proportional to node activations<br />
+<li>Tanh and sigmoid functions are prone to the vanishing gradient problem, where gradients shrink drastically in backpropagation such that the network is no longer able to learn. ReLU avoids this by preserving the gradient since:<br>
+  (i) its linear portion (in positive input range) allows gradients to flow well on active paths of neurons and remain proportional to node activations<br>
   (ii) it is an unbounded function (i.e., no max value)</li>
 </ul>
 </li>
@@ -554,12 +836,15 @@ $$</li>
 </ul>
 <p><figure>
   
-    <img class="docimage" src="/ml-interview-prep/images/copied_from_nb/images/activation_functions.png" alt="" style="max-width: 600px" />
+    <img class="docimage" src="/ml-interview-prep/images/copied_from_nb/images/activation_functions.png" alt="" style="max-width: 600px">
     
     
 </figure>
 </p>
-<h3 id="Gradient-Descent">Gradient Descent<a class="anchor" id="gradient-descent" /><a class="anchor-link" href="#Gradient-Descent"> </a></h3><ul>
+<h3 id="Gradient-Descent">
+<a class="anchor" href="#Gradient-Descent" aria-hidden="true"><span class="octicon octicon-link"></span></a>Gradient Descent<a class="anchor" id="gradient-descent"></a><a class="anchor-link" href="#Gradient-Descent"> </a>
+</h3>
+<ul>
 <li>Gradient ascent vs gradient descent</li>
 <li>Gradient descent: based on a convex function and tweaks its parameters iteratively to minimize a given function to its local minimum</li>
 <li>Why do we update parameters in the <strong>direction opposite of the gradient</strong>?<ul>
@@ -587,7 +872,8 @@ $$</li>
 </ul>
 </li>
 <li>SGD (<a href="https://www.asquero.com/article/advantages-and-disadvantages-of-stochastic-gradient-descent/">reference</a>)<ul>
-<li>Performs a parameter update for <strong>each training example</strong></li>
+<li>Performs a parameter update for <strong>each training example</strong>
+</li>
 <li>Pros:<ul>
 <li>Easier to fit in the memory due to a single training example being processed by the network</li>
 <li>Computationally fast as only one sample is processed at a time</li>
@@ -612,9 +898,12 @@ $$</li>
 </li>
 </ul>
 </li>
-<li></li>
+<li>
 </ul>
-<h3 id="Learning-Rates">Learning Rates<a class="anchor" id="learning-rates" /><a class="anchor-link" href="#Learning-Rates"> </a></h3><ul>
+<h3 id="Learning-Rates">
+<a class="anchor" href="#Learning-Rates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Learning Rates<a class="anchor" id="learning-rates"></a><a class="anchor-link" href="#Learning-Rates"> </a>
+</h3>
+<ul>
 <li>First step to combatting non-convergence: learning rate schedules</li>
 <li>Challenges with vanilla gradient descent (<a href="https://ruder.io/optimizing-gradient-descent/index.html">reference</a>)<ul>
 <li>A learning rate that is too small leads to painfully slow convergence, while a learning rate that is too large can hinder convergence and cause the loss function to fluctuate around the minimum or even to diverge</li>
@@ -626,12 +915,15 @@ $$</li>
 </ul>
 <p><figure>
   
-    <img class="docimage" src="/ml-interview-prep/images/copied_from_nb/images/learning_rates.jpeg" alt="" style="max-width: 400px" />
+    <img class="docimage" src="/ml-interview-prep/images/copied_from_nb/images/learning_rates.jpeg" alt="" style="max-width: 400px">
     
     
 </figure>
 </p>
-<h3 id="Optimizers">Optimizers<a class="anchor" id="optimizers" /><a class="anchor-link" href="#Optimizers"> </a></h3><ul>
+<h3 id="Optimizers">
+<a class="anchor" href="#Optimizers" aria-hidden="true"><span class="octicon octicon-link"></span></a>Optimizers<a class="anchor" id="optimizers"></a><a class="anchor-link" href="#Optimizers"> </a>
+</h3>
+<ul>
 <li>Responsible for figuring out how to adjust the parameters of the network to make it learn the objective</li>
 <li>SGD</li>
 <li>Momentum<ul>
@@ -669,49 +961,82 @@ $$</li>
 </ul>
 </li>
 </ul>
-<h3 id="Data">Data<a class="anchor-link" href="#Data"> </a></h3><h4 id="Shuffling">Shuffling<a class="anchor-link" href="#Shuffling"> </a></h4><ul>
+<h3 id="Data">
+<a class="anchor" href="#Data" aria-hidden="true"><span class="octicon octicon-link"></span></a>Data<a class="anchor-link" href="#Data"> </a>
+</h3>
+<h4 id="Shuffling">
+<a class="anchor" href="#Shuffling" aria-hidden="true"><span class="octicon octicon-link"></span></a>Shuffling<a class="anchor-link" href="#Shuffling"> </a>
+</h4>
+<ul>
 <li>We want to avoid providing the training examples in a meaningful order to our model as this may bias the optimization algorithm. Consequently, it is often a good idea to shuffle the training data after every epoch</li>
 <li>On the other hand, for some cases where we aim to solve progressively harder problems, supplying the training examples in a meaningful order may actually lead to improved performance and better convergence</li>
 <li>Not needed for batch gradient descent</li>
 </ul>
-<h4 id="Data-Augmentation">Data Augmentation<a class="anchor-link" href="#Data-Augmentation"> </a></h4><ul>
+<h4 id="Data-Augmentation">
+<a class="anchor" href="#Data-Augmentation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Data Augmentation<a class="anchor-link" href="#Data-Augmentation"> </a>
+</h4>
+<ul>
 <li>Reduces the chances of overfitting</li>
 <li>While data augmentation does have an explicit regularization effect, exploiting it can actually lead to the model not learning enough resulting in poor prediction results (<a href="https://towardsdatascience.com/balancing-the-regularization-effect-of-data-augmentation-eb551be48374">reference</a>)
 #### Data Leakage</li>
 </ul>
-<h3 id="Model-Components">Model Components<a class="anchor-link" href="#Model-Components"> </a></h3><h4 id="Batch-Normalization">Batch Normalization<a class="anchor-link" href="#Batch-Normalization"> </a></h4><ul>
+<h3 id="Model-Components">
+<a class="anchor" href="#Model-Components" aria-hidden="true"><span class="octicon octicon-link"></span></a>Model Components<a class="anchor-link" href="#Model-Components"> </a>
+</h3>
+<h4 id="Batch-Normalization">
+<a class="anchor" href="#Batch-Normalization" aria-hidden="true"><span class="octicon octicon-link"></span></a>Batch Normalization<a class="anchor-link" href="#Batch-Normalization"> </a>
+</h4>
+<ul>
 <li>Batch normalization is designed to combat "internal covariate shift" (change in the distribution of inputs during training)</li>
 <li>Standardizes layer outputs so that assumptions the subsequent layer makes about the spread and distribution of inputs during the weight update will not change</li>
 <li>Reduces training time</li>
 </ul>
-<h4 id="Dropout">Dropout<a class="anchor-link" href="#Dropout"> </a></h4><ul>
+<h4 id="Dropout">
+<a class="anchor" href="#Dropout" aria-hidden="true"><span class="octicon octicon-link"></span></a>Dropout<a class="anchor-link" href="#Dropout"> </a>
+</h4>
+<ul>
 <li>During training, individual nodes are ignored with probability $1-p$ or kept with probability $p$</li>
 <li>Dropout helps prevent overfitting due to a layer's "over-reliance" on a few of its inputs. Because these inputs aren't always present during training (i.e. they are dropped at random), the layer learns to use all of its inputs, improving generalization (<a href="https://stats.stackexchange.com/questions/374742/does-dropout-regularization-prevent-overfitting-due-to-too-many-iterations">reference</a>) (a layer's "over-reliance" on a few of its inputs has the effect of co-dependency among neurons, i.e. neurons developing redundant representations of data for prediction)</li>
 <li>A single model can be used to simulate having a large number of different network architectures by randomly dropping out nodes during training</li>
 <li>There are several (related) explanations to why dropout works. It can be seen as a form of model averaging — at each step we “turn off” a part of the model and average the models we get. It also adds noise, which naturally has a regularizing effect. It also leads to more sparsity of the weights and essentially prevents co-adaptation of neurons in the network. (<a href="https://towardsdatascience.com/50-deep-learning-interview-questions-part-1-2-8bbc8a00ec61">reference</a>)</li>
 <li>Increases trianing time</li>
 </ul>
-<h3 id="Vanishing-Gradients">Vanishing Gradients<a class="anchor-link" href="#Vanishing-Gradients"> </a></h3><ul>
+<h3 id="Vanishing-Gradients">
+<a class="anchor" href="#Vanishing-Gradients" aria-hidden="true"><span class="octicon octicon-link"></span></a>Vanishing Gradients<a class="anchor-link" href="#Vanishing-Gradients"> </a>
+</h3>
+<ul>
 <li>Vanishing gradient problem arises in cases where the gradient of the activation function is very small. During back propagation when the weights are multiplied with these low gradients, they tend to become very small and “vanish” as they go further deep in the network. This makes the neural network to forget the long range dependency</li>
 <li>Generally a problem in cases of recurrent neural networks where long term dependencies are important (<a href="https://www.analyticsvidhya.com/blog/2017/05/25-must-know-terms-concepts-for-beginners-in-deep-learning/">reference</a>)</li>
 <li>Sigmoid and tanh are prone to vanishing gradients; ReLU partially solves the problem (unbounded on the positive side, dying ReLU on the negative side; use leaky ReLU or different initialization method or batch normalization</li>
 </ul>
 <p><figure>
   
-    <img class="docimage" src="/ml-interview-prep/images/copied_from_nb/images/vanishing_gradient.png" alt="" style="max-width: 600px" />
+    <img class="docimage" src="/ml-interview-prep/images/copied_from_nb/images/vanishing_gradient.png" alt="" style="max-width: 600px">
     
     
 </figure>
 </p>
-<h3 id="Exploding-Gradients">Exploding Gradients<a class="anchor-link" href="#Exploding-Gradients"> </a></h3><ul>
+<h3 id="Exploding-Gradients">
+<a class="anchor" href="#Exploding-Gradients" aria-hidden="true"><span class="octicon octicon-link"></span></a>Exploding Gradients<a class="anchor-link" href="#Exploding-Gradients"> </a>
+</h3>
+<ul>
 <li>Results inn an overflow value (or NaN) in the weights</li>
 <li>Can be solved by gradient clipping</li>
 </ul>
-<h3 id="Weight-Initialization">Weight Initialization<a class="anchor-link" href="#Weight-Initialization"> </a></h3><ul>
+<h3 id="Weight-Initialization">
+<a class="anchor" href="#Weight-Initialization" aria-hidden="true"><span class="octicon octicon-link"></span></a>Weight Initialization<a class="anchor-link" href="#Weight-Initialization"> </a>
+</h3>
+<ul>
 <li>If all the neurons have the same value of weights, each hidden unit will get exactly the same signal. While this might work during forward propagation, the derivative of the cost function during backward propagation would be the same every time.</li>
 <li>In the 1-layer scenario, however, the cost function is convex (linear/sigmoid) and thus the weights will always converge to the optimal point, regardless of the initial value (convergence may be slower)</li>
 </ul>
-<h3 id="Model-Architectures">Model Architectures<a class="anchor-link" href="#Model-Architectures"> </a></h3><h4 id="CNNs">CNNs<a class="anchor-link" href="#CNNs"> </a></h4><ul>
+<h3 id="Model-Architectures">
+<a class="anchor" href="#Model-Architectures" aria-hidden="true"><span class="octicon octicon-link"></span></a>Model Architectures<a class="anchor-link" href="#Model-Architectures"> </a>
+</h3>
+<h4 id="CNNs">
+<a class="anchor" href="#CNNs" aria-hidden="true"><span class="octicon octicon-link"></span></a>CNNs<a class="anchor-link" href="#CNNs"> </a>
+</h4>
+<ul>
 <li>Unlike a regular Neural Network, the layers of a ConvNet have neurons arranged in 3 dimensions</li>
 <li>Why are CNNs primarily used for computer vision tasks?<ul>
 <li>The key lies in the convolution operation</li>
@@ -735,22 +1060,49 @@ $$</li>
 </ul>
 </li>
 </ul>
-<h4 id="RNNs">RNNs<a class="anchor-link" href="#RNNs"> </a></h4><ul>
+<h4 id="RNNs">
+<a class="anchor" href="#RNNs" aria-hidden="true"><span class="octicon octicon-link"></span></a>RNNs<a class="anchor-link" href="#RNNs"> </a>
+</h4>
+<ul>
 <li>Both exploding gradients and vanishing gradients are especially evident in RNNs (<a href="https://www.analyticsvidhya.com/blog/2020/04/comprehensive-popular-deep-learning-interview-questions-answers/">reference</a>)</li>
 </ul>
-<h4 id="AlexNet">AlexNet<a class="anchor-link" href="#AlexNet"> </a></h4><ul>
+<h4 id="AlexNet">
+<a class="anchor" href="#AlexNet" aria-hidden="true"><span class="octicon octicon-link"></span></a>AlexNet<a class="anchor-link" href="#AlexNet"> </a>
+</h4>
+<ul>
 <li>Improved upon LeNet &amp; beat previous methods at classifying images from the ImageNet dataset by a significant margin through a combination of GPU power and algorithmic advances</li>
 <li>One of the first times Dropout was used</li>
 <li>Consists of a sequence of Convolutional layers, ReLU nonlinearity, and max-pooling</li>
 </ul>
-<h4 id="ResNet">ResNet<a class="anchor-link" href="#ResNet"> </a></h4><p><a href="https://prabinnepal.com/deep-residual-learning-for-image-recognition-resnet-paper-explained/">Deep Residual Learning for Image Recognition (ResNet paper explained)</a></p>
+<h4 id="ResNet">
+<a class="anchor" href="#ResNet" aria-hidden="true"><span class="octicon octicon-link"></span></a>ResNet<a class="anchor-link" href="#ResNet"> </a>
+</h4>
+<p><a href="https://prabinnepal.com/deep-residual-learning-for-image-recognition-resnet-paper-explained/">Deep Residual Learning for Image Recognition (ResNet paper explained)</a></p>
 <ul>
 <li>The main innovation for ResNet is the introduction of residual blocks with skip connections, which deals with vanishing gradients</li>
 </ul>
-<h4 id="U-Net">U-Net<a class="anchor-link" href="#U-Net"> </a></h4><h4 id="Encoder-decoder-Networks-with-Attention">Encoder-decoder Networks with Attention<a class="anchor-link" href="#Encoder-decoder-Networks-with-Attention"> </a></h4><ul>
+<h4 id="U-Net">
+<a class="anchor" href="#U-Net" aria-hidden="true"><span class="octicon octicon-link"></span></a>U-Net<a class="anchor-link" href="#U-Net"> </a>
+</h4>
+<h4 id="Encoder-decoder-Networks-with-Attention">
+<a class="anchor" href="#Encoder-decoder-Networks-with-Attention" aria-hidden="true"><span class="octicon octicon-link"></span></a>Encoder-decoder Networks with Attention<a class="anchor-link" href="#Encoder-decoder-Networks-with-Attention"> </a>
+</h4>
+<ul>
 <li>Seq2Seq</li>
 </ul>
-<h4 id="Transformers-(Attention-is-All-You-Need)">Transformers (Attention is All You Need)<a class="anchor-link" href="#Transformers-(Attention-is-All-You-Need)"> </a></h4><h4 id="BERT">BERT<a class="anchor-link" href="#BERT"> </a></h4><h3 id="Transfer-Learning">Transfer Learning<a class="anchor-link" href="#Transfer-Learning"> </a></h3><h3 id="Other">Other<a class="anchor-link" href="#Other"> </a></h3><ul>
+<h4 id="Transformers-(Attention-is-All-You-Need)">
+<a class="anchor" href="#Transformers-(Attention-is-All-You-Need)" aria-hidden="true"><span class="octicon octicon-link"></span></a>Transformers (Attention is All You Need)<a class="anchor-link" href="#Transformers-(Attention-is-All-You-Need)"> </a>
+</h4>
+<h4 id="BERT">
+<a class="anchor" href="#BERT" aria-hidden="true"><span class="octicon octicon-link"></span></a>BERT<a class="anchor-link" href="#BERT"> </a>
+</h4>
+<h3 id="Transfer-Learning">
+<a class="anchor" href="#Transfer-Learning" aria-hidden="true"><span class="octicon octicon-link"></span></a>Transfer Learning<a class="anchor-link" href="#Transfer-Learning"> </a>
+</h3>
+<h3 id="Other">
+<a class="anchor" href="#Other" aria-hidden="true"><span class="octicon octicon-link"></span></a>Other<a class="anchor-link" href="#Other"> </a>
+</h3>
+<ul>
 <li>What to do when model doesn't converge<ul>
 <li><a href="https://blog.slavv.com/37-reasons-why-your-neural-network-is-not-working-4020854bd607">37 Reasons why your Neural Network is not working</a></li>
 <li>Learning rate?</li>
@@ -761,24 +1113,36 @@ $$</li>
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Evaluation">Evaluation<a class="anchor-link" href="#Evaluation"> </a></h2><h3 id="Metrics">Metrics<a class="anchor-link" href="#Metrics"> </a></h3><p><a href="https://www.davidsbatista.net/blog/2018/08/19/NLP_Metrics/">Evaluation Metrics, ROC-Curves and imbalanced datasets</a></p>
-<h4 id="Classification">Classification<a class="anchor-link" href="#Classification"> </a></h4><ul>
-<li><p>Precision vs recall</p>
+<h2 id="Evaluation">
+<a class="anchor" href="#Evaluation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Evaluation<a class="anchor-link" href="#Evaluation"> </a>
+</h2>
+<h3 id="Metrics">
+<a class="anchor" href="#Metrics" aria-hidden="true"><span class="octicon octicon-link"></span></a>Metrics<a class="anchor-link" href="#Metrics"> </a>
+</h3>
+<p><a href="https://www.davidsbatista.net/blog/2018/08/19/NLP_Metrics/">Evaluation Metrics, ROC-Curves and imbalanced datasets</a></p>
+<h4 id="Classification">
+<a class="anchor" href="#Classification" aria-hidden="true"><span class="octicon octicon-link"></span></a>Classification<a class="anchor-link" href="#Classification"> </a>
+</h4>
+<ul>
+<li>
+<p>Precision vs recall</p>
 <ul>
 <li>Precision: what proportion of positive identifications was actually correct?</li>
 <li>Recall: what proportion of actual positives was identified correctly?</li>
 <li>Precision and recall are often in tension; improving precision typically reduces recall and vice versa</li>
-<li>Example: imagine that we want to evaluate how well does a robot selects good apples from rotten apples There are $m$ good apples and $n$ rotten apples in a basket. A robot looks into the basket and picks out all the good apples, leaving the rotten apples behind, but is not perfect and could sometimes mistake a rotten apple for a good apple orange.<br />
-When the robot finishes, regarding the good apples, precision and recall means:<br />
-Precision: number of good apples picked out of all the apples picked out.<br />
-Recall: number of good apples picked out of all the good apples in the basket.<br />
-Precision is about <strong>exactness</strong>, classifying only one instance correctly yields 100% precision, but a very low recall, it tells us how well the system identifies samples from a given class.<br />
+<li>Example: imagine that we want to evaluate how well does a robot selects good apples from rotten apples There are $m$ good apples and $n$ rotten apples in a basket. A robot looks into the basket and picks out all the good apples, leaving the rotten apples behind, but is not perfect and could sometimes mistake a rotten apple for a good apple orange.<br>
+When the robot finishes, regarding the good apples, precision and recall means:<br>
+Precision: number of good apples picked out of all the apples picked out.<br>
+Recall: number of good apples picked out of all the good apples in the basket.<br>
+Precision is about <strong>exactness</strong>, classifying only one instance correctly yields 100% precision, but a very low recall, it tells us how well the system identifies samples from a given class.<br>
 Recall is about <strong>completeness</strong>, classifying all instances as positive yields 100% recall, but a very low precision, it tells how well the system does and identify all the samples from a given class.</li>
 </ul>
 </li>
-<li><p>Sensitivity vs specificity</p>
+<li>
+<p>Sensitivity vs specificity</p>
 <ul>
 <li>Sensitivity refers to the true positive rate and summarizes how well the positive class was predicted</li>
 <li>Specificity is the complement to sensitivity, or the true negative rate, and summarises how well the negative class was predicted</li>
@@ -789,13 +1153,22 @@ Recall is about <strong>completeness</strong>, classifying all instances as posi
 <li>Precision and recall can be combined into a single score that seeks to balance both concerns, called the F-score or the F-measure</li>
 <li>ROC: true positive rate (sensitivity) vs false positive rate (1 - specificity)</li>
 </ul>
-<h4 id="Regression">Regression<a class="anchor-link" href="#Regression"> </a></h4>
+<h4 id="Regression">
+<a class="anchor" href="#Regression" aria-hidden="true"><span class="octicon octicon-link"></span></a>Regression<a class="anchor-link" href="#Regression"> </a>
+</h4>
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="ML-Systems">ML Systems<a class="anchor" id="ml-systems" /><a class="anchor-link" href="#ML-Systems"> </a></h2><h3 id="Class-Imbalance">Class Imbalance<a class="anchor-link" href="#Class-Imbalance"> </a></h3><ul>
+<h2 id="ML-Systems">
+<a class="anchor" href="#ML-Systems" aria-hidden="true"><span class="octicon octicon-link"></span></a>ML Systems<a class="anchor" id="ml-systems"></a><a class="anchor-link" href="#ML-Systems"> </a>
+</h2>
+<h3 id="Class-Imbalance">
+<a class="anchor" href="#Class-Imbalance" aria-hidden="true"><span class="octicon octicon-link"></span></a>Class Imbalance<a class="anchor-link" href="#Class-Imbalance"> </a>
+</h3>
+<ul>
 <li>Class imbalance can make learing difficult for a number of reasons:<ul>
 <li>Insufficient signal</li>
 <li>"Satisfactory" defaults - by learning a very simple prediction heuristic (e.g. "always predict the majority class"), the model can obtain low loss and high accuracy</li>
@@ -803,16 +1176,22 @@ Recall is about <strong>completeness</strong>, classifying all instances as posi
 </ul>
 </li>
 <li>Solutions for class imbalance<ul>
-<li><span style="background-color: yellow">Resampling</span> - add more minority samples or remove majority samples</li>
-<li><span style="background-color: yellow">Weight balancing</span> - adjust the loss function to incentivize the model to focus more on rare classes</li>
-<li><span style="background-color: yellow">Ensemble</span> - choose a learning algorithm more robust to class imbalance<ul>
+<li>
+<span style="background-color: yellow">Resampling</span> - add more minority samples or remove majority samples</li>
+<li>
+<span style="background-color: yellow">Weight balancing</span> - adjust the loss function to incentivize the model to focus more on rare classes</li>
+<li>
+<span style="background-color: yellow">Ensemble</span> - choose a learning algorithm more robust to class imbalance<ul>
 <li>Experiments have shown that boosting and bagging help, but not much literature on algorithms robust to the class imbalance problem</li>
 </ul>
 </li>
 </ul>
 </li>
 </ul>
-<h3 id="Overfitting">Overfitting<a class="anchor-link" href="#Overfitting"> </a></h3><ul>
+<h3 id="Overfitting">
+<a class="anchor" href="#Overfitting" aria-hidden="true"><span class="octicon octicon-link"></span></a>Overfitting<a class="anchor-link" href="#Overfitting"> </a>
+</h3>
+<ul>
 <li>Example<ul>
 <li>When the number of features &gt; number of data points</li>
 </ul>
@@ -831,7 +1210,10 @@ Recall is about <strong>completeness</strong>, classifying all instances as posi
 </ul>
 </li>
 </ul>
-<h3 id="Underfitting">Underfitting<a class="anchor-link" href="#Underfitting"> </a></h3><ul>
+<h3 id="Underfitting">
+<a class="anchor" href="#Underfitting" aria-hidden="true"><span class="octicon octicon-link"></span></a>Underfitting<a class="anchor-link" href="#Underfitting"> </a>
+</h3>
+<ul>
 <li>Example<ul>
 <li>When the model's errors on both training and test sets are very high</li>
 </ul>
@@ -843,24 +1225,32 @@ Recall is about <strong>completeness</strong>, classifying all instances as posi
 <li>Noise reduction</li>
 </ul>
 </li>
-<li><p><span style="background-color: yellow">High bias models (underfitting) will not benefit from more training examples</span></p>
-<p><img src="images/underfitting_overfitting.png" alt="bias-variance tradeoff" /></p>
+<li>
+<p><span style="background-color: yellow">High bias models (underfitting) will not benefit from more training examples</span></p>
+<p><img src="images/underfitting_overfitting.png" alt="bias-variance tradeoff"></p>
 </li>
-<li><p>Bias-variance tradeoff:</p>
+<li>
+<p>Bias-variance tradeoff:</p>
 <ul>
 <li>Bias is the simplifying assumptions made by the model to make the target function easier to approximate</li>
 <li>Variance is the amount that the estimate of the target function will change given different training data</li>
 </ul>
 </li>
 </ul>
-<h3 id="Regularization">Regularization<a class="anchor-link" href="#Regularization"> </a></h3><ul>
+<h3 id="Regularization">
+<a class="anchor" href="#Regularization" aria-hidden="true"><span class="octicon octicon-link"></span></a>Regularization<a class="anchor-link" href="#Regularization"> </a>
+</h3>
+<ul>
 <li>L1 regularization (LASSO) vs L2 regularization (Ridge)<ul>
 <li>LASSO: Least Absolute Shrinkage and Selection Operator</li>
 <li>L1 can yield sparse models; some coefficients can become 0 and eliminated</li>
 </ul>
 </li>
 </ul>
-<h3 id="Model-Debugging-and-Testing">Model Debugging and Testing<a class="anchor-link" href="#Model-Debugging-and-Testing"> </a></h3><p>"What would you do if model doesn't perform well (in dev or in production) / model performance deteriorates over time / etc?"</p>
+<h3 id="Model-Debugging-and-Testing">
+<a class="anchor" href="#Model-Debugging-and-Testing" aria-hidden="true"><span class="octicon octicon-link"></span></a>Model Debugging and Testing<a class="anchor-link" href="#Model-Debugging-and-Testing"> </a>
+</h3>
+<p>"What would you do if model doesn't perform well (in dev or in production) / model performance deteriorates over time / etc?"</p>
 <ul>
 <li>Change in feature distribution</li>
 <li>Overfitting</li>
@@ -870,15 +1260,22 @@ Recall is about <strong>completeness</strong>, classifying all instances as posi
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Interview-Tips">Interview Tips<a class="anchor" id="interview-tips" /><a class="anchor-link" href="#Interview-Tips"> </a></h1>
+<h1 id="Interview-Tips">
+<a class="anchor" href="#Interview-Tips" aria-hidden="true"><span class="octicon octicon-link"></span></a>Interview Tips<a class="anchor" id="interview-tips"></a><a class="anchor-link" href="#Interview-Tips"> </a>
+</h1>
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Questions-to-Ask-the-Interviewer">Questions to Ask the Interviewer<a class="anchor-link" href="#Questions-to-Ask-the-Interviewer"> </a></h2><ul>
+<h2 id="Questions-to-Ask-the-Interviewer">
+<a class="anchor" href="#Questions-to-Ask-the-Interviewer" aria-hidden="true"><span class="octicon octicon-link"></span></a>Questions to Ask the Interviewer<a class="anchor-link" href="#Questions-to-Ask-the-Interviewer"> </a>
+</h2>
+<ul>
 <li>Team culture</li>
 <li>Team dynamics</li>
 <li>Vision and mission of the company</li>
@@ -894,7 +1291,15 @@ Recall is about <strong>completeness</strong>, classifying all instances as posi
 
 
 
-  </div><a class="u-url" href="/ml-interview-prep/2021/11/11/Machine-Learning-Interview-Study-Guide.html" hidden></a>
+  </div><!-- from https://github.com/utterance/utterances -->
+<script src="https://utteranc.es/client.js"
+        repo="chloeh13q/ml-interview-prep"
+        issue-term="title"
+        label="blogpost-comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script><a class="u-url" href="/ml-interview-prep/interview-prep/2021/11/11/Machine-Learning-Interview-Study-Guide.html" hidden></a>
 </article>
       </div>
     </main><footer class="site-footer h-card">
